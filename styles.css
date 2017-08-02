@@ -1,0 +1,104 @@
+*{
+	margin:0px;
+	font-family:Helvetica;
+}
+
+body{
+	background:#2F3655;
+}
+
+.container {
+	width:768px;
+	margin: 0 auto;
+}
+
+header{
+	width:100%;
+	height:75px;
+	background: white;
+	line-height: 75px;
+	margin-bottom:55px;
+}
+
+header .container{
+	margin: 0 auto;
+	display:flex;
+	justify-content: space-between;
+}
+
+header .container > .header_logo{
+	color:#0D8CDB;
+	font-size:24px;
+}
+
+.speaker_form{
+	color:white;
+	font-size: 32px;
+	line-height: 120px;
+	position:absolute;
+	left:15%;
+}
+
+.speakerBox .container{
+	background:#EF9072;
+	height:120px;
+	border-radius: 10px;
+	margin-bottom:30px;
+	position:relative;
+}
+
+.mats .container {
+	background:#4A4973;
+	height:580px;
+	border-radius:10px;
+	margin-bottom:50px;
+}
+
+.mats > .container {
+	display: flex;
+	flex-direction: column;
+}
+
+.card_container{
+	margin:auto;
+	width:90%;
+	height:90%;
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.card{
+	width:30%;
+	height:150px;
+	background: white;
+	position:relative;
+	border-radius:10px;
+}
+.card_image{
+	margin:auto;
+	display:flex;
+	padding-top:18px;
+	justify-content:center;
+	align-items:center;
+}
+
+
+
+
+.card_label{
+	position:absolute;
+	bottom:0px;
+	height:25%;
+	background:#E9E9E9;
+	width:100%;
+	text-align: center;
+	line-height: 35px;
+	color:#626668;
+	font-size:13px;
+	border-radius: 0px 0px 10px 10px;
+	font-weight:700;
+
+}
+
+
