@@ -36,7 +36,23 @@ header .container > .header_logo{
 	font-size: 32px;
 	line-height: 120px;
 	position:absolute;
-	left:15%;
+	left:20%;
+}
+
+#reset_btn{
+	height:100%;
+	width:100px;
+	border:0px solid white;
+	border-radius:10px 0px 0px 10px;
+	float:left;
+	color:white;
+	background: #2A2A46;
+}
+
+.speaker_button-text{
+	padding-top:10px;
+	font-weight: 100;
+	font-size:14px;
 }
 
 .speakerBox .container{
@@ -75,6 +91,15 @@ header .container > .header_logo{
 	position:relative;
 	border-radius:10px;
 }
+
+.card:hover{
+	box-shadow: inset 0px 0px 0px 5px green;
+}
+
+.card:hover > .card_label {
+	box-shadow: inset 0px -5px 0px 5px green;
+}
+
 .card_image{
 	margin:auto;
 	display:flex;
@@ -82,8 +107,6 @@ header .container > .header_logo{
 	justify-content:center;
 	align-items:center;
 }
-
-
 
 
 .card_label{
